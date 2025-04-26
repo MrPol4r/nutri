@@ -1,0 +1,44 @@
+﻿@model Nutrigo_SINERA.Models.ClsColegio
+@{
+    Layout = "~/Views/Shared/LayoutAdministrador.cshtml";
+    ViewBag.Title = "Agregar Colegio";
+}
+
+<h3 class="mb-4">➕ Agregar Colegio</h3>
+
+@using (Html.BeginForm())
+{
+    <div class="row">
+        <div class="col-md-6">
+            <h5>🏫 Información del Colegio</h5>
+            @Html.TextBoxFor(m => m.Nombre, new { @class = "form-control mb-2", placeholder = "Nombre del colegio" })
+            @Html.TextBoxFor(m => m.CodigoModular, new { @class = "form-control mb-2", placeholder = "Código Modular" })
+            @Html.TextBoxFor(m => m.TipoColegio, new { @class = "form-control mb-2", placeholder = "Tipo de colegio" })
+            @Html.TextBoxFor(m => m.NivelEducativo, new { @class = "form-control mb-2", placeholder = "Nivel educativo" })
+            @Html.TextBoxFor(m => m.Direccion, new { @class = "form-control mb-2", placeholder = "Dirección" })
+            @Html.TextBoxFor(m => m.Ubicacion, new { @class = "form-control mb-2", placeholder = "Ubicación (Dpto/Prov/Distrito)" })
+            @Html.TextBoxFor(m => m.Telefono, new { @class = "form-control mb-2", placeholder = "Teléfono" })
+            @Html.TextBoxFor(m => m.CorreoInstitucional, new { @class = "form-control mb-2", placeholder = "Correo institucional" })
+            @Html.TextBoxFor(m => m.CantidadAlumnos, new { @class = "form-control mb-2", placeholder = "Cantidad de alumnos", type = "number" })
+        </div>
+
+        <div class="col-md-6">
+            <h5>👤 Representante</h5>
+            @Html.TextBoxFor(m => m.RepresentanteNombre, new { @class = "form-control mb-2", placeholder = "Nombre del representante" })
+            @Html.TextBoxFor(m => m.RepresentanteCargo, new { @class = "form-control mb-2", placeholder = "Cargo" })
+            @Html.TextBoxFor(m => m.RepresentanteDNI, new { @class = "form-control mb-2", placeholder = "DNI" })
+            @Html.TextBoxFor(m => m.RepresentanteCorreo, new { @class = "form-control mb-2", placeholder = "Correo electrónico" })
+            @Html.TextBoxFor(m => m.RepresentanteCelular, new { @class = "form-control mb-2", placeholder = "Celular" })
+            @Html.PasswordFor(m => m.Contrasena, new { @class = "form-control mb-2", placeholder = "Contraseña" })
+            <div class="form-check mt-3">
+                <label class="form-check-label">
+                    @Html.CheckBoxFor(m => m.Activo) ¿Activo?
+                </label>
+            </div>
+        </div>
+    </div>
+
+    <hr />
+    <button type="submit" class="btn btn-success">💾 Guardar</button>
+    <a href="@Url.Action("Index")" class="btn btn-secondary">Cancelar</a>
+}

@@ -1,0 +1,101 @@
+﻿@model Nutrigo_SINERA.Models.ClsColegio
+@{
+    Layout = "~/Views/Shared/LayoutColegio.cshtml";
+    ViewBag.Title = "Editar Perfil";
+}
+
+<h2>Editar Perfil del Colegio</h2>
+
+@if (TempData["PerfilMensaje"] != null)
+{
+    <div class="alert alert-success">
+        @TempData["PerfilMensaje"]
+    </div>
+}
+
+@using (Html.BeginForm("EditarPerfil", "Colegio", FormMethod.Post))
+{
+    @Html.AntiForgeryToken()
+
+    <h4>Información Institucional</h4>
+    <div class="form-row">
+        <div class="form-group col-md-6">
+            @Html.LabelFor(m => m.Nombre, "Nombre del Colegio")
+            @Html.TextBoxFor(m => m.Nombre, new { @class = "form-control" })
+        </div>
+        <div class="form-group col-md-6">
+            @Html.LabelFor(m => m.CodigoModular)
+            @Html.TextBoxFor(m => m.CodigoModular, new { @class = "form-control" })
+        </div>
+    </div>
+    <div class="form-row">
+        <div class="form-group col-md-4">
+            @Html.LabelFor(m => m.TipoColegio, "Tipo de Colegio")
+            @Html.TextBoxFor(m => m.TipoColegio, new { @class = "form-control" })
+        </div>
+        <div class="form-group col-md-4">
+            @Html.LabelFor(m => m.NivelEducativo, "Nivel educativo")
+            @Html.TextBoxFor(m => m.NivelEducativo, new { @class = "form-control" })
+        </div>
+        <div class="form-group col-md-4">
+            @Html.LabelFor(m => m.CantidadAlumnos, "Cant. de alumnos")
+            @Html.TextBoxFor(m => m.CantidadAlumnos, new { @class = "form-control", type = "number" })
+        </div>
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(m => m.Direccion)
+        @Html.TextBoxFor(m => m.Direccion, new { @class = "form-control" })
+    </div>
+    <div class="form-row">
+        <div class="form-group col-md-6">
+            @Html.LabelFor(m => m.Ubicacion, "Ubicación (Dpto/Prov/Distrito)")
+            @Html.TextBoxFor(m => m.Ubicacion, new { @class = "form-control" })
+        </div>
+        <div class="form-group col-md-3">
+            @Html.LabelFor(m => m.Telefono)
+            @Html.TextBoxFor(m => m.Telefono, new { @class = "form-control", type = "tel" })
+        </div>
+        <div class="form-group col-md-3">
+            @Html.LabelFor(m => m.CorreoInstitucional, "Correo institucional")
+            @Html.TextBoxFor(m => m.CorreoInstitucional, new { @class = "form-control", type = "email" })
+        </div>
+    </div>
+    <div class="form-group form-check">
+        @Html.CheckBoxFor(m => m.Activo, new { @class = "form-check-input", id = "Activo" })
+        <label class="form-check-label" for="Activo">Colegio activo</label>
+    </div>
+
+    <hr />
+    <h4>Datos del Representante</h4>
+    <div class="form-row">
+        <div class="form-group col-md-6">
+            @Html.LabelFor(m => m.RepresentanteNombre, "Nombre")
+            @Html.TextBoxFor(m => m.RepresentanteNombre, new { @class = "form-control" })
+        </div>
+        <div class="form-group col-md-6">
+            @Html.LabelFor(m => m.RepresentanteCargo, "Cargo")
+            @Html.TextBoxFor(m => m.RepresentanteCargo, new { @class = "form-control" })
+        </div>
+    </div>
+    <div class="form-row">
+        <div class="form-group col-md-4">
+            @Html.LabelFor(m => m.RepresentanteDNI, "DNI")
+            @Html.TextBoxFor(m => m.RepresentanteDNI, new { @class = "form-control" })
+        </div>
+        <div class="form-group col-md-4">
+            @Html.LabelFor(m => m.RepresentanteCorreo, "Correo")
+            @Html.TextBoxFor(m => m.RepresentanteCorreo, new { @class = "form-control", type = "email" })
+        </div>
+        <div class="form-group col-md-4">
+            @Html.LabelFor(m => m.RepresentanteCelular, "Celular")
+            @Html.TextBoxFor(m => m.RepresentanteCelular, new { @class = "form-control", type = "tel" })
+        </div>
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(m => m.Contrasena, "Contraseña")
+        @Html.PasswordFor(m => m.Contrasena, new { @class = "form-control" })
+    </div>
+
+    <button type="submit" class="btn btn-primary">Guardar cambios</button>
+    @Html.ActionLink("Cancelar", "Index", null, new { @class = "btn btn-secondary ml-2" })
+}

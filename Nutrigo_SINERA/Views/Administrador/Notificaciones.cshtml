@@ -1,0 +1,11 @@
+﻿@{
+    Layout = "~/Views/Shared/LayoutAdministrador.cshtml";
+    ViewBag.Title = "Notificaciones";
+}
+<h3>🔔 Notificaciones Recientes</h3>
+<ul class="list-group">
+    @foreach (var msg in ViewBag.Mensajes as List<string>)
+    {
+        <li class="list-group-item">@msg</li>
+    }
+</ul>

@@ -1,0 +1,342 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\OVALTECH\\OneDrive - UNIVERSIDAD PRIVADA DE TACNA\\Documentos\\GitHub\\07-implementacion-de-codigo-g02_huallpa_escobar\\Nutrigo_SINERA\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{99AC634F-F9B5-4C72-9520-81B90E4F8CD9}|Nutrigo_SINERA\\Nutrigo_SINERA.csproj|c:\\users\\ovaltech\\onedrive - universidad privada de tacna\\documentos\\github\\07-implementacion-de-codigo-g02_huallpa_escobar\\nutrigo_sinera\\nutrigo_sinera\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{99AC634F-F9B5-4C72-9520-81B90E4F8CD9}|Nutrigo_SINERA\\Nutrigo_SINERA.csproj|solutionrelative:nutrigo_sinera\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99AC634F-F9B5-4C72-9520-81B90E4F8CD9}|Nutrigo_SINERA\\Nutrigo_SINERA.csproj|C:\\Users\\OVALTECH\\OneDrive - UNIVERSIDAD PRIVADA DE TACNA\\Documentos\\GitHub\\07-implementacion-de-codigo-g02_huallpa_escobar\\Nutrigo_SINERA\\nutrigo_sinera\\views\\proveedor\\notificaciones.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{99AC634F-F9B5-4C72-9520-81B90E4F8CD9}|Nutrigo_SINERA\\Nutrigo_SINERA.csproj|solutionrelative:nutrigo_sinera\\views\\proveedor\\notificaciones.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99AC634F-F9B5-4C72-9520-81B90E4F8CD9}|Nutrigo_SINERA\\Nutrigo_SINERA.csproj|C:\\Users\\OVALTECH\\OneDrive - UNIVERSIDAD PRIVADA DE TACNA\\Documentos\\GitHub\\07-implementacion-de-codigo-g02_huallpa_escobar\\Nutrigo_SINERA\\nutrigo_sinera\\views\\proveedor\\perfil.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{99AC634F-F9B5-4C72-9520-81B90E4F8CD9}|Nutrigo_SINERA\\Nutrigo_SINERA.csproj|solutionrelative:nutrigo_sinera\\views\\proveedor\\perfil.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99AC634F-F9B5-4C72-9520-81B90E4F8CD9}|Nutrigo_SINERA\\Nutrigo_SINERA.csproj|C:\\Users\\OVALTECH\\OneDrive - UNIVERSIDAD PRIVADA DE TACNA\\Documentos\\GitHub\\07-implementacion-de-codigo-g02_huallpa_escobar\\Nutrigo_SINERA\\nutrigo_sinera\\controllers\\proveedorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99AC634F-F9B5-4C72-9520-81B90E4F8CD9}|Nutrigo_SINERA\\Nutrigo_SINERA.csproj|solutionrelative:nutrigo_sinera\\controllers\\proveedorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99AC634F-F9B5-4C72-9520-81B90E4F8CD9}|Nutrigo_SINERA\\Nutrigo_SINERA.csproj|C:\\Users\\OVALTECH\\OneDrive - UNIVERSIDAD PRIVADA DE TACNA\\Documentos\\GitHub\\07-implementacion-de-codigo-g02_huallpa_escobar\\Nutrigo_SINERA\\nutrigo_sinera\\views\\proveedor\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{99AC634F-F9B5-4C72-9520-81B90E4F8CD9}|Nutrigo_SINERA\\Nutrigo_SINERA.csproj|solutionrelative:nutrigo_sinera\\views\\proveedor\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99AC634F-F9B5-4C72-9520-81B90E4F8CD9}|Nutrigo_SINERA\\Nutrigo_SINERA.csproj|C:\\Users\\OVALTECH\\OneDrive - UNIVERSIDAD PRIVADA DE TACNA\\Documentos\\GitHub\\07-implementacion-de-codigo-g02_huallpa_escobar\\Nutrigo_SINERA\\nutrigo_sinera\\views\\shared\\layoutproveedor.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{99AC634F-F9B5-4C72-9520-81B90E4F8CD9}|Nutrigo_SINERA\\Nutrigo_SINERA.csproj|solutionrelative:nutrigo_sinera\\views\\shared\\layoutproveedor.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99AC634F-F9B5-4C72-9520-81B90E4F8CD9}|Nutrigo_SINERA\\Nutrigo_SINERA.csproj|C:\\Users\\OVALTECH\\OneDrive - UNIVERSIDAD PRIVADA DE TACNA\\Documentos\\GitHub\\07-implementacion-de-codigo-g02_huallpa_escobar\\Nutrigo_SINERA\\nutrigo_sinera\\views\\administrador\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{99AC634F-F9B5-4C72-9520-81B90E4F8CD9}|Nutrigo_SINERA\\Nutrigo_SINERA.csproj|solutionrelative:nutrigo_sinera\\views\\administrador\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99AC634F-F9B5-4C72-9520-81B90E4F8CD9}|Nutrigo_SINERA\\Nutrigo_SINERA.csproj|C:\\Users\\OVALTECH\\OneDrive - UNIVERSIDAD PRIVADA DE TACNA\\Documentos\\GitHub\\07-implementacion-de-codigo-g02_huallpa_escobar\\Nutrigo_SINERA\\nutrigo_sinera\\views\\administrador\\agregar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{99AC634F-F9B5-4C72-9520-81B90E4F8CD9}|Nutrigo_SINERA\\Nutrigo_SINERA.csproj|solutionrelative:nutrigo_sinera\\views\\administrador\\agregar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99AC634F-F9B5-4C72-9520-81B90E4F8CD9}|Nutrigo_SINERA\\Nutrigo_SINERA.csproj|C:\\Users\\OVALTECH\\OneDrive - UNIVERSIDAD PRIVADA DE TACNA\\Documentos\\GitHub\\07-implementacion-de-codigo-g02_huallpa_escobar\\Nutrigo_SINERA\\nutrigo_sinera\\views\\shared\\layoutadministrador.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{99AC634F-F9B5-4C72-9520-81B90E4F8CD9}|Nutrigo_SINERA\\Nutrigo_SINERA.csproj|solutionrelative:nutrigo_sinera\\views\\shared\\layoutadministrador.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99AC634F-F9B5-4C72-9520-81B90E4F8CD9}|Nutrigo_SINERA\\Nutrigo_SINERA.csproj|C:\\Users\\OVALTECH\\OneDrive - UNIVERSIDAD PRIVADA DE TACNA\\Documentos\\GitHub\\07-implementacion-de-codigo-g02_huallpa_escobar\\Nutrigo_SINERA\\nutrigo_sinera\\views\\shared\\layoutalumno.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{99AC634F-F9B5-4C72-9520-81B90E4F8CD9}|Nutrigo_SINERA\\Nutrigo_SINERA.csproj|solutionrelative:nutrigo_sinera\\views\\shared\\layoutalumno.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99AC634F-F9B5-4C72-9520-81B90E4F8CD9}|Nutrigo_SINERA\\Nutrigo_SINERA.csproj|C:\\Users\\OVALTECH\\OneDrive - UNIVERSIDAD PRIVADA DE TACNA\\Documentos\\GitHub\\07-implementacion-de-codigo-g02_huallpa_escobar\\Nutrigo_SINERA\\nutrigo_sinera\\views\\alumno\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{99AC634F-F9B5-4C72-9520-81B90E4F8CD9}|Nutrigo_SINERA\\Nutrigo_SINERA.csproj|solutionrelative:nutrigo_sinera\\views\\alumno\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99AC634F-F9B5-4C72-9520-81B90E4F8CD9}|Nutrigo_SINERA\\Nutrigo_SINERA.csproj|C:\\Users\\OVALTECH\\OneDrive - UNIVERSIDAD PRIVADA DE TACNA\\Documentos\\GitHub\\07-implementacion-de-codigo-g02_huallpa_escobar\\Nutrigo_SINERA\\nutrigo_sinera\\views\\colegio\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{99AC634F-F9B5-4C72-9520-81B90E4F8CD9}|Nutrigo_SINERA\\Nutrigo_SINERA.csproj|solutionrelative:nutrigo_sinera\\views\\colegio\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99AC634F-F9B5-4C72-9520-81B90E4F8CD9}|Nutrigo_SINERA\\Nutrigo_SINERA.csproj|C:\\Users\\OVALTECH\\OneDrive - UNIVERSIDAD PRIVADA DE TACNA\\Documentos\\GitHub\\07-implementacion-de-codigo-g02_huallpa_escobar\\Nutrigo_SINERA\\nutrigo_sinera\\views\\alumno\\editarperfil.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{99AC634F-F9B5-4C72-9520-81B90E4F8CD9}|Nutrigo_SINERA\\Nutrigo_SINERA.csproj|solutionrelative:nutrigo_sinera\\views\\alumno\\editarperfil.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99AC634F-F9B5-4C72-9520-81B90E4F8CD9}|Nutrigo_SINERA\\Nutrigo_SINERA.csproj|C:\\Users\\OVALTECH\\OneDrive - UNIVERSIDAD PRIVADA DE TACNA\\Documentos\\GitHub\\07-implementacion-de-codigo-g02_huallpa_escobar\\Nutrigo_SINERA\\nutrigo_sinera\\views\\alumno\\evaluacionhabitos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{99AC634F-F9B5-4C72-9520-81B90E4F8CD9}|Nutrigo_SINERA\\Nutrigo_SINERA.csproj|solutionrelative:nutrigo_sinera\\views\\alumno\\evaluacionhabitos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99AC634F-F9B5-4C72-9520-81B90E4F8CD9}|Nutrigo_SINERA\\Nutrigo_SINERA.csproj|C:\\Users\\OVALTECH\\OneDrive - UNIVERSIDAD PRIVADA DE TACNA\\Documentos\\GitHub\\07-implementacion-de-codigo-g02_huallpa_escobar\\Nutrigo_SINERA\\nutrigo_sinera\\views\\alumno\\monitoreoimc.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{99AC634F-F9B5-4C72-9520-81B90E4F8CD9}|Nutrigo_SINERA\\Nutrigo_SINERA.csproj|solutionrelative:nutrigo_sinera\\views\\alumno\\monitoreoimc.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99AC634F-F9B5-4C72-9520-81B90E4F8CD9}|Nutrigo_SINERA\\Nutrigo_SINERA.csproj|C:\\Users\\OVALTECH\\OneDrive - UNIVERSIDAD PRIVADA DE TACNA\\Documentos\\GitHub\\07-implementacion-de-codigo-g02_huallpa_escobar\\Nutrigo_SINERA\\nutrigo_sinera\\views\\alumno\\notificaciones.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{99AC634F-F9B5-4C72-9520-81B90E4F8CD9}|Nutrigo_SINERA\\Nutrigo_SINERA.csproj|solutionrelative:nutrigo_sinera\\views\\alumno\\notificaciones.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99AC634F-F9B5-4C72-9520-81B90E4F8CD9}|Nutrigo_SINERA\\Nutrigo_SINERA.csproj|C:\\Users\\OVALTECH\\OneDrive - UNIVERSIDAD PRIVADA DE TACNA\\Documentos\\GitHub\\07-implementacion-de-codigo-g02_huallpa_escobar\\Nutrigo_SINERA\\nutrigo_sinera\\views\\alumno\\plansemanalproveedores.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{99AC634F-F9B5-4C72-9520-81B90E4F8CD9}|Nutrigo_SINERA\\Nutrigo_SINERA.csproj|solutionrelative:nutrigo_sinera\\views\\alumno\\plansemanalproveedores.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99AC634F-F9B5-4C72-9520-81B90E4F8CD9}|Nutrigo_SINERA\\Nutrigo_SINERA.csproj|C:\\Users\\OVALTECH\\OneDrive - UNIVERSIDAD PRIVADA DE TACNA\\Documentos\\GitHub\\07-implementacion-de-codigo-g02_huallpa_escobar\\Nutrigo_SINERA\\nutrigo_sinera\\views\\alumno\\plansemanalsistema.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{99AC634F-F9B5-4C72-9520-81B90E4F8CD9}|Nutrigo_SINERA\\Nutrigo_SINERA.csproj|solutionrelative:nutrigo_sinera\\views\\alumno\\plansemanalsistema.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99AC634F-F9B5-4C72-9520-81B90E4F8CD9}|Nutrigo_SINERA\\Nutrigo_SINERA.csproj|C:\\Users\\OVALTECH\\OneDrive - UNIVERSIDAD PRIVADA DE TACNA\\Documentos\\GitHub\\07-implementacion-de-codigo-g02_huallpa_escobar\\Nutrigo_SINERA\\nutrigo_sinera\\views\\alumno\\recomendacionespersonalizadas.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{99AC634F-F9B5-4C72-9520-81B90E4F8CD9}|Nutrigo_SINERA\\Nutrigo_SINERA.csproj|solutionrelative:nutrigo_sinera\\views\\alumno\\recomendacionespersonalizadas.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99AC634F-F9B5-4C72-9520-81B90E4F8CD9}|Nutrigo_SINERA\\Nutrigo_SINERA.csproj|C:\\Users\\OVALTECH\\OneDrive - UNIVERSIDAD PRIVADA DE TACNA\\Documentos\\GitHub\\07-implementacion-de-codigo-g02_huallpa_escobar\\Nutrigo_SINERA\\nutrigo_sinera\\controllers\\alumnocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99AC634F-F9B5-4C72-9520-81B90E4F8CD9}|Nutrigo_SINERA\\Nutrigo_SINERA.csproj|solutionrelative:nutrigo_sinera\\controllers\\alumnocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "index.cshtml",
+              "DocumentMoniker": "C:\\Users\\OVALTECH\\OneDrive - UNIVERSIDAD PRIVADA DE TACNA\\Documentos\\GitHub\\07-implementacion-de-codigo-g02_huallpa_escobar\\Nutrigo_SINERA\\Nutrigo_SINERA\\Views\\Home\\index.cshtml",
+              "RelativeDocumentMoniker": "Nutrigo_SINERA\\Views\\Home\\index.cshtml",
+              "ToolTip": "C:\\Users\\OVALTECH\\OneDrive - UNIVERSIDAD PRIVADA DE TACNA\\Documentos\\GitHub\\07-implementacion-de-codigo-g02_huallpa_escobar\\Nutrigo_SINERA\\Nutrigo_SINERA\\Views\\Home\\index.cshtml",
+              "RelativeToolTip": "Nutrigo_SINERA\\Views\\Home\\index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-18T07:04:23.259Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProveedorController.cs",
+              "DocumentMoniker": "C:\\Users\\OVALTECH\\OneDrive - UNIVERSIDAD PRIVADA DE TACNA\\Documentos\\GitHub\\07-implementacion-de-codigo-g02_huallpa_escobar\\Nutrigo_SINERA\\Nutrigo_SINERA\\Controllers\\ProveedorController.cs",
+              "RelativeDocumentMoniker": "Nutrigo_SINERA\\Controllers\\ProveedorController.cs",
+              "ToolTip": "C:\\Users\\OVALTECH\\OneDrive - UNIVERSIDAD PRIVADA DE TACNA\\Documentos\\GitHub\\07-implementacion-de-codigo-g02_huallpa_escobar\\Nutrigo_SINERA\\Nutrigo_SINERA\\Controllers\\ProveedorController.cs",
+              "RelativeToolTip": "Nutrigo_SINERA\\Controllers\\ProveedorController.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAQwB4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-19T23:27:38.956Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Notificaciones.cshtml",
+              "DocumentMoniker": "C:\\Users\\OVALTECH\\OneDrive - UNIVERSIDAD PRIVADA DE TACNA\\Documentos\\GitHub\\07-implementacion-de-codigo-g02_huallpa_escobar\\Nutrigo_SINERA\\Nutrigo_SINERA\\Views\\Proveedor\\Notificaciones.cshtml",
+              "RelativeDocumentMoniker": "Nutrigo_SINERA\\Views\\Proveedor\\Notificaciones.cshtml",
+              "ToolTip": "C:\\Users\\OVALTECH\\OneDrive - UNIVERSIDAD PRIVADA DE TACNA\\Documentos\\GitHub\\07-implementacion-de-codigo-g02_huallpa_escobar\\Nutrigo_SINERA\\Nutrigo_SINERA\\Views\\Proveedor\\Notificaciones.cshtml",
+              "RelativeToolTip": "Nutrigo_SINERA\\Views\\Proveedor\\Notificaciones.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-19T23:25:47.436Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Perfil.cshtml",
+              "DocumentMoniker": "C:\\Users\\OVALTECH\\OneDrive - UNIVERSIDAD PRIVADA DE TACNA\\Documentos\\GitHub\\07-implementacion-de-codigo-g02_huallpa_escobar\\Nutrigo_SINERA\\Nutrigo_SINERA\\Views\\Proveedor\\Perfil.cshtml",
+              "RelativeDocumentMoniker": "Nutrigo_SINERA\\Views\\Proveedor\\Perfil.cshtml",
+              "ToolTip": "C:\\Users\\OVALTECH\\OneDrive - UNIVERSIDAD PRIVADA DE TACNA\\Documentos\\GitHub\\07-implementacion-de-codigo-g02_huallpa_escobar\\Nutrigo_SINERA\\Nutrigo_SINERA\\Views\\Proveedor\\Perfil.cshtml",
+              "RelativeToolTip": "Nutrigo_SINERA\\Views\\Proveedor\\Perfil.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-19T23:25:26.962Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "EditarPerfil.cshtml",
+              "DocumentMoniker": "C:\\Users\\OVALTECH\\OneDrive - UNIVERSIDAD PRIVADA DE TACNA\\Documentos\\GitHub\\07-implementacion-de-codigo-g02_huallpa_escobar\\Nutrigo_SINERA\\Nutrigo_SINERA\\Views\\Alumno\\EditarPerfil.cshtml",
+              "RelativeDocumentMoniker": "Nutrigo_SINERA\\Views\\Alumno\\EditarPerfil.cshtml",
+              "ToolTip": "C:\\Users\\OVALTECH\\OneDrive - UNIVERSIDAD PRIVADA DE TACNA\\Documentos\\GitHub\\07-implementacion-de-codigo-g02_huallpa_escobar\\Nutrigo_SINERA\\Nutrigo_SINERA\\Views\\Alumno\\EditarPerfil.cshtml",
+              "RelativeToolTip": "Nutrigo_SINERA\\Views\\Alumno\\EditarPerfil.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-19T23:01:00.291Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Agregar.cshtml",
+              "DocumentMoniker": "C:\\Users\\OVALTECH\\OneDrive - UNIVERSIDAD PRIVADA DE TACNA\\Documentos\\GitHub\\07-implementacion-de-codigo-g02_huallpa_escobar\\Nutrigo_SINERA\\Nutrigo_SINERA\\Views\\Administrador\\Agregar.cshtml",
+              "RelativeDocumentMoniker": "Nutrigo_SINERA\\Views\\Administrador\\Agregar.cshtml",
+              "ToolTip": "C:\\Users\\OVALTECH\\OneDrive - UNIVERSIDAD PRIVADA DE TACNA\\Documentos\\GitHub\\07-implementacion-de-codigo-g02_huallpa_escobar\\Nutrigo_SINERA\\Nutrigo_SINERA\\Views\\Administrador\\Agregar.cshtml",
+              "RelativeToolTip": "Nutrigo_SINERA\\Views\\Administrador\\Agregar.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-19T00:23:13.58Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\OVALTECH\\OneDrive - UNIVERSIDAD PRIVADA DE TACNA\\Documentos\\GitHub\\07-implementacion-de-codigo-g02_huallpa_escobar\\Nutrigo_SINERA\\Nutrigo_SINERA\\Views\\Proveedor\\Index.cshtml",
+              "RelativeDocumentMoniker": "Nutrigo_SINERA\\Views\\Proveedor\\Index.cshtml",
+              "ToolTip": "C:\\Users\\OVALTECH\\OneDrive - UNIVERSIDAD PRIVADA DE TACNA\\Documentos\\GitHub\\07-implementacion-de-codigo-g02_huallpa_escobar\\Nutrigo_SINERA\\Nutrigo_SINERA\\Views\\Proveedor\\Index.cshtml",
+              "RelativeToolTip": "Nutrigo_SINERA\\Views\\Proveedor\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-19T23:15:46.381Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\OVALTECH\\OneDrive - UNIVERSIDAD PRIVADA DE TACNA\\Documentos\\GitHub\\07-implementacion-de-codigo-g02_huallpa_escobar\\Nutrigo_SINERA\\Nutrigo_SINERA\\Views\\Administrador\\Index.cshtml",
+              "RelativeDocumentMoniker": "Nutrigo_SINERA\\Views\\Administrador\\Index.cshtml",
+              "ToolTip": "C:\\Users\\OVALTECH\\OneDrive - UNIVERSIDAD PRIVADA DE TACNA\\Documentos\\GitHub\\07-implementacion-de-codigo-g02_huallpa_escobar\\Nutrigo_SINERA\\Nutrigo_SINERA\\Views\\Administrador\\Index.cshtml",
+              "RelativeToolTip": "Nutrigo_SINERA\\Views\\Administrador\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-19T23:19:16.574Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LayoutProveedor.cshtml",
+              "DocumentMoniker": "C:\\Users\\OVALTECH\\OneDrive - UNIVERSIDAD PRIVADA DE TACNA\\Documentos\\GitHub\\07-implementacion-de-codigo-g02_huallpa_escobar\\Nutrigo_SINERA\\Nutrigo_SINERA\\Views\\Shared\\LayoutProveedor.cshtml",
+              "RelativeDocumentMoniker": "Nutrigo_SINERA\\Views\\Shared\\LayoutProveedor.cshtml",
+              "ToolTip": "C:\\Users\\OVALTECH\\OneDrive - UNIVERSIDAD PRIVADA DE TACNA\\Documentos\\GitHub\\07-implementacion-de-codigo-g02_huallpa_escobar\\Nutrigo_SINERA\\Nutrigo_SINERA\\Views\\Shared\\LayoutProveedor.cshtml",
+              "RelativeToolTip": "Nutrigo_SINERA\\Views\\Shared\\LayoutProveedor.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-19T23:14:48.418Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "LayoutAdministrador.cshtml",
+              "DocumentMoniker": "C:\\Users\\OVALTECH\\OneDrive - UNIVERSIDAD PRIVADA DE TACNA\\Documentos\\GitHub\\07-implementacion-de-codigo-g02_huallpa_escobar\\Nutrigo_SINERA\\Nutrigo_SINERA\\Views\\Shared\\LayoutAdministrador.cshtml",
+              "RelativeDocumentMoniker": "Nutrigo_SINERA\\Views\\Shared\\LayoutAdministrador.cshtml",
+              "ToolTip": "C:\\Users\\OVALTECH\\OneDrive - UNIVERSIDAD PRIVADA DE TACNA\\Documentos\\GitHub\\07-implementacion-de-codigo-g02_huallpa_escobar\\Nutrigo_SINERA\\Nutrigo_SINERA\\Views\\Shared\\LayoutAdministrador.cshtml",
+              "RelativeToolTip": "Nutrigo_SINERA\\Views\\Shared\\LayoutAdministrador.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-19T23:12:05.87Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\OVALTECH\\OneDrive - UNIVERSIDAD PRIVADA DE TACNA\\Documentos\\GitHub\\07-implementacion-de-codigo-g02_huallpa_escobar\\Nutrigo_SINERA\\Nutrigo_SINERA\\Views\\Colegio\\Index.cshtml",
+              "RelativeDocumentMoniker": "Nutrigo_SINERA\\Views\\Colegio\\Index.cshtml",
+              "ToolTip": "C:\\Users\\OVALTECH\\OneDrive - UNIVERSIDAD PRIVADA DE TACNA\\Documentos\\GitHub\\07-implementacion-de-codigo-g02_huallpa_escobar\\Nutrigo_SINERA\\Nutrigo_SINERA\\Views\\Colegio\\Index.cshtml",
+              "RelativeToolTip": "Nutrigo_SINERA\\Views\\Colegio\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-19T23:12:51.868Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\OVALTECH\\OneDrive - UNIVERSIDAD PRIVADA DE TACNA\\Documentos\\GitHub\\07-implementacion-de-codigo-g02_huallpa_escobar\\Nutrigo_SINERA\\Nutrigo_SINERA\\Views\\Alumno\\Index.cshtml",
+              "RelativeDocumentMoniker": "Nutrigo_SINERA\\Views\\Alumno\\Index.cshtml",
+              "ToolTip": "C:\\Users\\OVALTECH\\OneDrive - UNIVERSIDAD PRIVADA DE TACNA\\Documentos\\GitHub\\07-implementacion-de-codigo-g02_huallpa_escobar\\Nutrigo_SINERA\\Nutrigo_SINERA\\Views\\Alumno\\Index.cshtml",
+              "RelativeToolTip": "Nutrigo_SINERA\\Views\\Alumno\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-19T06:55:19.413Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "LayoutAlumno.cshtml",
+              "DocumentMoniker": "C:\\Users\\OVALTECH\\OneDrive - UNIVERSIDAD PRIVADA DE TACNA\\Documentos\\GitHub\\07-implementacion-de-codigo-g02_huallpa_escobar\\Nutrigo_SINERA\\Nutrigo_SINERA\\Views\\Shared\\LayoutAlumno.cshtml",
+              "RelativeDocumentMoniker": "Nutrigo_SINERA\\Views\\Shared\\LayoutAlumno.cshtml",
+              "ToolTip": "C:\\Users\\OVALTECH\\OneDrive - UNIVERSIDAD PRIVADA DE TACNA\\Documentos\\GitHub\\07-implementacion-de-codigo-g02_huallpa_escobar\\Nutrigo_SINERA\\Nutrigo_SINERA\\Views\\Shared\\LayoutAlumno.cshtml",
+              "RelativeToolTip": "Nutrigo_SINERA\\Views\\Shared\\LayoutAlumno.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-19T21:54:05.144Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "EvaluacionHabitos.cshtml",
+              "DocumentMoniker": "C:\\Users\\OVALTECH\\OneDrive - UNIVERSIDAD PRIVADA DE TACNA\\Documentos\\GitHub\\07-implementacion-de-codigo-g02_huallpa_escobar\\Nutrigo_SINERA\\Nutrigo_SINERA\\Views\\Alumno\\EvaluacionHabitos.cshtml",
+              "RelativeDocumentMoniker": "Nutrigo_SINERA\\Views\\Alumno\\EvaluacionHabitos.cshtml",
+              "ToolTip": "C:\\Users\\OVALTECH\\OneDrive - UNIVERSIDAD PRIVADA DE TACNA\\Documentos\\GitHub\\07-implementacion-de-codigo-g02_huallpa_escobar\\Nutrigo_SINERA\\Nutrigo_SINERA\\Views\\Alumno\\EvaluacionHabitos.cshtml",
+              "RelativeToolTip": "Nutrigo_SINERA\\Views\\Alumno\\EvaluacionHabitos.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-19T21:56:28.212Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "MonitoreoIMC.cshtml",
+              "DocumentMoniker": "C:\\Users\\OVALTECH\\OneDrive - UNIVERSIDAD PRIVADA DE TACNA\\Documentos\\GitHub\\07-implementacion-de-codigo-g02_huallpa_escobar\\Nutrigo_SINERA\\Nutrigo_SINERA\\Views\\Alumno\\MonitoreoIMC.cshtml",
+              "RelativeDocumentMoniker": "Nutrigo_SINERA\\Views\\Alumno\\MonitoreoIMC.cshtml",
+              "ToolTip": "C:\\Users\\OVALTECH\\OneDrive - UNIVERSIDAD PRIVADA DE TACNA\\Documentos\\GitHub\\07-implementacion-de-codigo-g02_huallpa_escobar\\Nutrigo_SINERA\\Nutrigo_SINERA\\Views\\Alumno\\MonitoreoIMC.cshtml",
+              "RelativeToolTip": "Nutrigo_SINERA\\Views\\Alumno\\MonitoreoIMC.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-19T23:00:13.318Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Notificaciones.cshtml",
+              "DocumentMoniker": "C:\\Users\\OVALTECH\\OneDrive - UNIVERSIDAD PRIVADA DE TACNA\\Documentos\\GitHub\\07-implementacion-de-codigo-g02_huallpa_escobar\\Nutrigo_SINERA\\Nutrigo_SINERA\\Views\\Alumno\\Notificaciones.cshtml",
+              "RelativeDocumentMoniker": "Nutrigo_SINERA\\Views\\Alumno\\Notificaciones.cshtml",
+              "ToolTip": "C:\\Users\\OVALTECH\\OneDrive - UNIVERSIDAD PRIVADA DE TACNA\\Documentos\\GitHub\\07-implementacion-de-codigo-g02_huallpa_escobar\\Nutrigo_SINERA\\Nutrigo_SINERA\\Views\\Alumno\\Notificaciones.cshtml",
+              "RelativeToolTip": "Nutrigo_SINERA\\Views\\Alumno\\Notificaciones.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-19T23:01:12.936Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "PlanSemanalProveedores.cshtml",
+              "DocumentMoniker": "C:\\Users\\OVALTECH\\OneDrive - UNIVERSIDAD PRIVADA DE TACNA\\Documentos\\GitHub\\07-implementacion-de-codigo-g02_huallpa_escobar\\Nutrigo_SINERA\\Nutrigo_SINERA\\Views\\Alumno\\PlanSemanalProveedores.cshtml",
+              "RelativeDocumentMoniker": "Nutrigo_SINERA\\Views\\Alumno\\PlanSemanalProveedores.cshtml",
+              "ToolTip": "C:\\Users\\OVALTECH\\OneDrive - UNIVERSIDAD PRIVADA DE TACNA\\Documentos\\GitHub\\07-implementacion-de-codigo-g02_huallpa_escobar\\Nutrigo_SINERA\\Nutrigo_SINERA\\Views\\Alumno\\PlanSemanalProveedores.cshtml",
+              "RelativeToolTip": "Nutrigo_SINERA\\Views\\Alumno\\PlanSemanalProveedores.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-19T23:00:46.627Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "PlanSemanalSistema.cshtml",
+              "DocumentMoniker": "C:\\Users\\OVALTECH\\OneDrive - UNIVERSIDAD PRIVADA DE TACNA\\Documentos\\GitHub\\07-implementacion-de-codigo-g02_huallpa_escobar\\Nutrigo_SINERA\\Nutrigo_SINERA\\Views\\Alumno\\PlanSemanalSistema.cshtml",
+              "RelativeDocumentMoniker": "Nutrigo_SINERA\\Views\\Alumno\\PlanSemanalSistema.cshtml",
+              "ToolTip": "C:\\Users\\OVALTECH\\OneDrive - UNIVERSIDAD PRIVADA DE TACNA\\Documentos\\GitHub\\07-implementacion-de-codigo-g02_huallpa_escobar\\Nutrigo_SINERA\\Nutrigo_SINERA\\Views\\Alumno\\PlanSemanalSistema.cshtml",
+              "RelativeToolTip": "Nutrigo_SINERA\\Views\\Alumno\\PlanSemanalSistema.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-19T23:00:30.483Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "RecomendacionesPersonalizadas.cshtml",
+              "DocumentMoniker": "C:\\Users\\OVALTECH\\OneDrive - UNIVERSIDAD PRIVADA DE TACNA\\Documentos\\GitHub\\07-implementacion-de-codigo-g02_huallpa_escobar\\Nutrigo_SINERA\\Nutrigo_SINERA\\Views\\Alumno\\RecomendacionesPersonalizadas.cshtml",
+              "RelativeDocumentMoniker": "Nutrigo_SINERA\\Views\\Alumno\\RecomendacionesPersonalizadas.cshtml",
+              "ToolTip": "C:\\Users\\OVALTECH\\OneDrive - UNIVERSIDAD PRIVADA DE TACNA\\Documentos\\GitHub\\07-implementacion-de-codigo-g02_huallpa_escobar\\Nutrigo_SINERA\\Nutrigo_SINERA\\Views\\Alumno\\RecomendacionesPersonalizadas.cshtml",
+              "RelativeToolTip": "Nutrigo_SINERA\\Views\\Alumno\\RecomendacionesPersonalizadas.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-19T21:56:35.11Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "AlumnoController.cs",
+              "DocumentMoniker": "C:\\Users\\OVALTECH\\OneDrive - UNIVERSIDAD PRIVADA DE TACNA\\Documentos\\GitHub\\07-implementacion-de-codigo-g02_huallpa_escobar\\Nutrigo_SINERA\\Nutrigo_SINERA\\Controllers\\AlumnoController.cs",
+              "RelativeDocumentMoniker": "Nutrigo_SINERA\\Controllers\\AlumnoController.cs",
+              "ToolTip": "C:\\Users\\OVALTECH\\OneDrive - UNIVERSIDAD PRIVADA DE TACNA\\Documentos\\GitHub\\07-implementacion-de-codigo-g02_huallpa_escobar\\Nutrigo_SINERA\\Nutrigo_SINERA\\Controllers\\AlumnoController.cs",
+              "RelativeToolTip": "Nutrigo_SINERA\\Controllers\\AlumnoController.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAowC0AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-19T06:48:40.644Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

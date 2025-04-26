@@ -1,0 +1,115 @@
+﻿
+@{
+    Layout = "~/Views/Shared/LayoutAlumno.cshtml";
+}
+
+<style>
+    body {
+        font-family: 'Segoe UI', sans-serif;
+    }
+
+    .plan-container {
+        max-width: 900px;
+        margin: auto;
+        padding: 30px;
+        background-color: #f9f9f9;
+        border-radius: 12px;
+        border: 1px solid #ccc;
+    }
+
+    h2 {
+        color: #2c3e50;
+        margin-bottom: 20px;
+    }
+
+    .dia {
+        margin-bottom: 20px;
+        background-color: #fff;
+        padding: 15px;
+        border-radius: 10px;
+        border: 1px solid #ddd;
+    }
+
+    .comida {
+        cursor: pointer;
+        margin: 10px 0;
+        padding: 10px;
+        border-left: 5px solid #28a745;
+        background-color: #eefbe7;
+        border-radius: 6px;
+        transition: all 0.3s ease;
+    }
+
+        .comida:hover {
+            background-color: #e2f3d9;
+        }
+
+    .detalle {
+        display: none;
+        padding: 10px 15px;
+        background-color: #f4f4f4;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        margin-top: 8px;
+    }
+
+    .btn-receta {
+        margin-top: 10px;
+        background-color: #007bff;
+        color: white;
+        padding: 8px 14px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+        .btn-receta:hover {
+            background-color: #0056b3;
+        }
+</style>
+
+<div class="plan-container">
+    <h2>📅 Plan Nutricional Semanal</h2>
+
+    @for (int i = 0; i < 7; i++)
+    {
+        string dia = System.Globalization.CultureInfo.CurrentCulture.DateTimeFormat.DayNames[(int)(DateTime.Now.AddDays(i).DayOfWeek)];
+        <div class="dia">
+            <h4>🗓️ @dia</h4>
+
+            <div class="comida" onclick="toggleDetalle(this)">
+                🍳 <strong>Desayuno:</strong> Yogurt con granola y frutas
+                <div class="detalle">
+                    <p>Rápido de preparar y rico en calcio, fibra y antioxidantes. Ideal para iniciar el día.</p>
+                    <button class="btn-receta">📥 Descargar Receta</button>
+                </div>
+            </div>
+
+            <div class="comida" onclick="toggleDetalle(this)">
+                🍛 <strong>Almuerzo:</strong> Pollo a la plancha con arroz integral y ensalada de verduras
+                <div class="detalle">
+                    <p>Rico en proteínas, fibra y vitaminas. Bajo en grasa y fácil de preparar.</p>
+                    <button class="btn-receta">📥 Descargar Receta</button>
+                </div>
+            </div>
+
+            <div class="comida" onclick="toggleDetalle(this)">
+                🍲 <strong>Cena:</strong> Sopa de verduras con tostadas integrales
+                <div class="detalle">
+                    <p>Ligero, nutritivo y digestivo. Ideal para terminar el día con energía equilibrada.</p>
+                    <button class="btn-receta">📥 Descargar Receta</button>
+                </div>
+            </div>
+        </div>
+    }
+
+    <br />
+    <button class="btn-receta">📄 Descargar Plan Completo en PDF</button>
+</div>
+
+<script>
+    function toggleDetalle(elemento) {
+        const detalle = elemento.querySelector(".detalle");
+        detalle.style.display = detalle.style.display === "block" ? "none" : "block";
+    }
+</script>

@@ -1,0 +1,121 @@
+﻿@{
+    Layout = "~/Views/Shared/LayoutAlumno.cshtml";
+    ViewBag.Title = "Evaluación de Hábitos Alimenticios";
+}
+
+<style>
+    .habitos-container {
+        padding: 30px;
+        max-width: 700px;
+        margin: auto;
+        font-family: 'Segoe UI', sans-serif;
+        background-color: #f4f4f4;
+        border-radius: 12px;
+        border: 1px solid #ccc;
+    }
+
+    h2 {
+        color: #333;
+        margin-bottom: 20px;
+    }
+
+    label {
+        font-weight: bold;
+    }
+
+    .form-group {
+        margin-bottom: 15px;
+    }
+
+    input[type="text"],
+    input[type="number"],
+    textarea,
+    select {
+        width: 100%;
+        padding: 10px;
+        border-radius: 6px;
+        border: 1px solid #ccc;
+        margin-top: 5px;
+    }
+
+    .btn-guardar {
+        background-color: #007bff;
+        border: none;
+        color: white;
+        padding: 10px 20px;
+        font-size: 16px;
+        border-radius: 6px;
+        cursor: pointer;
+    }
+
+        .btn-guardar:hover {
+            background-color: #0056b3;
+        }
+</style>
+
+<div class="habitos-container">
+    <h2>🥗 Registrar Hábitos Alimenticios</h2>
+
+    <form method="post">
+
+        <div class="form-group">
+            <label>¿Cuántas comidas haces por día?</label>
+            <input type="number" name="frecuencia" required />
+        </div>
+
+        <div class="form-group">
+            <label>¿Qué tipo de alimentos consumes regularmente?</label>
+            <textarea name="tipos" required></textarea>
+        </div>
+
+        <div class="form-group">
+            <label>¿Sigues alguna dieta especial?</label>
+            <input type="text" name="dieta" placeholder="Ej. vegetariana, sin gluten, etc." />
+        </div>
+
+        <!-- Preguntas adicionales -->
+        <div class="form-group">
+            <label>¿Con qué frecuencia consumes alimentos procesados o fast food?</label>
+            <select name="procesados">
+                <option>Rara vez</option>
+                <option>1 a 2 veces por semana</option>
+                <option>Casi todos los días</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label>¿Tomas bebidas azucaradas (gaseosas, jugos artificiales)?</label>
+            <select name="bebidas">
+                <option>No</option>
+                <option>Ocasionalmente</option>
+                <option>Frecuentemente</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label>¿Consumes frutas y verduras todos los días?</label>
+            <select name="frutasVerduras">
+                <option>Sí</option>
+                <option>No</option>
+                <option>Algunas veces</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label>¿A qué hora realizas tu última comida del día?</label>
+            <input type="text" name="ultimaComida" placeholder="Ej. 8:00 PM" />
+        </div>
+
+        <div class="form-group">
+            <label>¿Qué tan importante consideras tu alimentación?</label>
+            <select name="importanciaAlimentacion">
+                <option>Muy importante</option>
+                <option>Medianamente importante</option>
+                <option>Poco importante</option>
+            </select>
+        </div>
+
+        <br />
+        <input type="submit" value="Guardar" class="btn-guardar" />
+    </form>
+</div>

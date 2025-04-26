@@ -1,0 +1,153 @@
+﻿
+@{
+    Layout = "~/Views/Shared/LayoutAlumno.cshtml";
+}
+<div class="d-flex justify-content-between align-items-center mb-4">
+    <h3>Pantalla principal</h3>
+    <div>
+        <img src="https://www.w3schools.com/howto/img_avatar.png" style="width: 40px; border-radius: 50%;" />
+        <strong>Estudiante</strong>
+    </div>
+</div>
+<style>
+    .progreso-container {
+        max-width: 900px;
+        margin: 30px auto;
+        padding: 30px;
+        background-color: #f4f4f4;
+        border-radius: 12px;
+        font-family: 'Segoe UI', sans-serif;
+        border: 1px solid #ccc;
+    }
+
+        .progreso-container h2 {
+            color: #2c3e50;
+            margin-bottom: 30px;
+        }
+
+    .grafico-img {
+        width: 100%;
+        border-radius: 10px;
+        border: 1px solid #ccc;
+        margin-bottom: 30px;
+    }
+
+    .tabla-progreso {
+        width: 100%;
+        border-collapse: collapse;
+        font-size: 15px;
+        background-color: #fff;
+        border-radius: 8px;
+        overflow: hidden;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+
+        .tabla-progreso th {
+            background-color: #00897b;
+            color: white;
+            padding: 12px;
+            text-align: center;
+        }
+
+        .tabla-progreso td {
+            padding: 10px;
+            text-align: center;
+            border-bottom: 1px solid #ddd;
+        }
+
+    .peso-ideal {
+        background-color: #d4edda;
+        color: #155724;
+        font-weight: bold;
+    }
+
+    .fuera-peso {
+        background-color: #f8d7da;
+        color: #721c24;
+    }
+
+    .tendencia {
+        font-size: 20px;
+    }
+</style>
+<h2>Gráficas de Progreso</h2>
+<p>Aquí irán tus gráficos de evolución de peso, IMC, calorías, etc.</p>
+<canvas id="chartProgress"></canvas>
+
+@section Scripts {
+    <script>
+        // Ejemplo de Chart.js
+        var ctx = document.getElementById('chartProgress').getContext('2d');
+        new Chart(ctx, {
+            type: 'line',
+            data: {
+                labels: [], // fechas
+                datasets: [{
+                    label: 'Peso (kg)',
+                    data: []
+                }]
+            }
+        });
+    </script>
+}
+<div class="progreso-container">
+    <h2>📈 Progreso Nutricional del Estudiante</h2>
+
+
+
+    <table class="tabla-progreso">
+        <thead>
+            <tr>
+                <th>Semana</th>
+                <th>Peso Actual (kg)</th>
+                <th>Peso Ideal (kg)</th>
+                <th>Tendencia</th>
+                <th>¿En Peso Ideal?</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Semana 1</td>
+                <td>45.0</td>
+                <td>44.0</td>
+                <td class="tendencia">↓</td>
+                <td class="fuera-peso">No</td>
+            </tr>
+            <tr>
+                <td>Semana 2</td>
+                <td>44.8</td>
+                <td>44.0</td>
+                <td class="tendencia">↓</td>
+                <td class="fuera-peso">No</td>
+            </tr>
+            <tr>
+                <td>Semana 3</td>
+                <td>44.5</td>
+                <td>44.0</td>
+                <td class="tendencia">↓</td>
+                <td class="fuera-peso">No</td>
+            </tr>
+            <tr>
+                <td>Semana 4</td>
+                <td>44.2</td>
+                <td>44.0</td>
+                <td class="tendencia">↓</td>
+                <td class="fuera-peso">No</td>
+            </tr>
+            <tr>
+                <td>Semana 5</td>
+                <td>44.0</td>
+                <td>44.0</td>
+                <td class="tendencia">↓</td>
+                <td class="peso-ideal">Sí</td>
+            </tr>
+            <tr>
+                <td>Semana 6</td>
+                <td>43.7</td>
+                <td>44.0</td>
+                <td class="tendencia">↓</td>
+                <td class="peso-ideal">Sí</td>
+            </tr>
+        </tbody>
+    </table>
+</div>

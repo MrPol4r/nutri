@@ -1,0 +1,37 @@
+﻿
+@{
+    Layout = "~/Views/Shared/Layout.cshtml";
+}
+
+<div class="container" style="max-width: 600px; margin-top: 30px;">
+    <h2 class="text-center">💳 Pago con Tarjeta</h2>
+    <p class="text-center">Ingresa los datos de tu tarjeta para completar el registro del colegio.</p>
+
+    @using (Html.BeginForm("ConfirmarPago", "Colegio", FormMethod.Post))
+    {
+        <div class="form-group">
+            <label>Nombre del titular</label>
+            <input type="text" name="NombreTitular" class="form-control" placeholder="Ej. Juan Pérez" required />
+        </div>
+
+        <div class="form-group">
+            <label>Número de tarjeta</label>
+            <input type="text" name="NumeroTarjeta" class="form-control" placeholder="#### #### #### ####" maxlength="19" required />
+        </div>
+
+        <div class="row">
+            <div class="col-md-6 form-group">
+                <label>Fecha de vencimiento</label>
+                <input type="text" name="FechaVencimiento" class="form-control" placeholder="MM/AA" required />
+            </div>
+            <div class="col-md-6 form-group">
+                <label>Código CVV</label>
+                <input type="password" name="CVV" class="form-control" placeholder="123" maxlength="4" required />
+            </div>
+        </div>
+
+        <div class="form-group text-center">
+            <button type="submit" class="btn btn-success btn-lg" style="width: 100%;">✅ Confirmar y Finalizar Registro</button>
+        </div>
+    }
+</div>

@@ -1,0 +1,16 @@
+﻿@model Nutrigo_SINERA.Models.ClsAlumno
+@{
+    Layout = "~/Views/Shared/LayoutColegio.cshtml";
+    ViewBag.Title = "Detalle del Alumno";
+}
+
+<h2 class="mb-4">👁️ Detalle del Alumno</h2>
+
+<table class="table table-bordered">
+    <tr><th>Nombre</th><td>@Model.Nombre</td></tr>
+    <tr><th>Grado</th><td>@Model.Grado</td></tr>
+    <tr><th>Sección</th><td>@Model.Seccion</td></tr>
+    <tr><th>Correo</th><td>@Model.Correo</td></tr>
+</table>
+
+<a href="@Url.Action("Estudiantes", "Colegio")" class="btn btn-primary">🔙 Volver</a>

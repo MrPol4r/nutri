@@ -1,0 +1,23 @@
+﻿@{
+    Layout = "~/Views/Shared/LayoutAlumno.cshtml";
+    ViewBag.Title = "Monitoreo de IMC";
+}
+
+<h2>Calcula tu Índice de Masa Corporal</h2>
+<form method="post" action="#">
+    <div class="mb-3">
+        <label>Altura (cm)</label>
+        <input type="number" class="form-control" name="altura" />
+    </div>
+    <div class="mb-3">
+        <label>Peso (kg)</label>
+        <input type="number" class="form-control" name="peso" />
+    </div>
+    <button type="submit" class="btn btn-primary">Calcular</button>
+</form>
+@if (ViewBag.IMC != null)
+{
+    <div class="alert alert-info mt-3">
+        Tu IMC es: @ViewBag.IMC
+    </div>
+}

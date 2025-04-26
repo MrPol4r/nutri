@@ -1,0 +1,44 @@
+﻿@model Nutrigo_SINERA.Models.ClsProveedor
+@{
+    Layout = "~/Views/Shared/LayoutColegio.cshtml";
+    ViewBag.Title = "Editar Proveedor";
+}
+
+<h2 class="mb-4">✏️ Editar Proveedor</h2>
+
+@using (Html.BeginForm("EditarProveedor", "Colegio", FormMethod.Post))
+{
+    @Html.HiddenFor(m => m.Id)
+
+    <div class="row g-3">
+        <div class="col-md-4">
+            @Html.Label("Nombre")
+            @Html.TextBoxFor(m => m.Nombre, new { @class = "form-control", required = "required" })
+        </div>
+        <div class="col-md-4">
+            @Html.Label("RUC")
+            @Html.TextBoxFor(m => m.RUC, new { @class = "form-control", required = "required" })
+        </div>
+        <div class="col-md-4">
+            @Html.Label("Especialidad")
+            @Html.TextBoxFor(m => m.Especialidad, new { @class = "form-control" })
+        </div>
+        <div class="col-md-6">
+            @Html.Label("Correo")
+            @Html.TextBoxFor(m => m.Correo, new { @class = "form-control", type = "email", required = "required" })
+        </div>
+        <div class="col-md-6">
+            @Html.Label("Celular")
+            @Html.TextBoxFor(m => m.Celular, new { @class = "form-control" })
+        </div>
+        <div class="col-md-6">
+            @Html.Label("Contraseña")
+            @Html.PasswordFor(m => m.Contrasena, new { @class = "form-control", required = "required" })
+        </div>
+    </div>
+
+    <div class="mt-4">
+        <input type="submit" value="Guardar Cambios" class="btn btn-success" />
+        <a href="@Url.Action("Proveedores", "Colegio")" class="btn btn-secondary">Cancelar</a>
+    </div>
+}

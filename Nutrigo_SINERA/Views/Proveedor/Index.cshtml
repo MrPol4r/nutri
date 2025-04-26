@@ -1,0 +1,56 @@
+﻿@{
+    Layout = "~/Views/Shared/LayoutProveedor.cshtml";
+    ViewBag.Title = "Registrar Plan Semanal";
+}
+
+<h2 class="mb-4 text-center">📅 Registrar Plan Semanal de Menús</h2>
+
+<div class="mx-auto" style="max-width: 900px;">
+    <div class="row gy-4">
+        @for (int i = 1; i <= 3; i++)
+        {
+            <div class="col-12">
+                <div class="card shadow-sm">
+                    <div class="card-body">
+                        <h5 class="card-title">Menú @i</h5>
+                        <div class="row g-3">
+                            <div class="col-md-4">
+                                <label class="form-label">Día de la semana</label>
+                                <select class="form-select">
+                                    <option selected disabled>Seleccione día…</option>
+                                    <option>Lunes</option>
+                                    <option>Martes</option>
+                                    <option>Miércoles</option>
+                                    <option>Jueves</option>
+                                    <option>Viernes</option>
+                                    <option>Sábado</option>
+                                    <option>Domingo</option>
+                                </select>
+                            </div>
+                            <div class="col-md-4">
+                                <label class="form-label">Categoría</label>
+                                <select class="form-select">
+                                    <option selected disabled>Seleccione…</option>
+                                    <option>Bajo peso</option>
+                                    <option>Peso normal</option>
+                                    <option>Sobrepeso</option>
+                                </select>
+                            </div>
+                            <div class="col-md-4">
+                                <label class="form-label">Descripción</label>
+                                <textarea class="form-control" rows="3"
+                                          placeholder="Ej. Desayuno: Avena con frutas…"></textarea>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+
+    <div class="d-flex justify-content-end mt-4">
+        <button class="btn btn-success">
+            <i class="bi bi-save"></i> Guardar Plan
+        </button>
+    </div>
+</div>

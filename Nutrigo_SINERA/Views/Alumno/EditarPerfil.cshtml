@@ -1,0 +1,82 @@
+﻿@{
+    Layout = "~/Views/Shared/LayoutAlumno.cshtml";
+    ViewBag.Title = "Editar Perfil";
+}
+
+<h2 class="mb-4 text-center">👤 Editar Perfil del Alumno</h2>
+
+<form class="mx-auto" style="max-width: 800px;">
+    <div class="card shadow-sm mb-4">
+        <div class="card-body">
+            <div class="row gy-3">
+                <!-- Nombre completo -->
+                <div class="col-md-6">
+                    <label for="Nombre" class="form-label">Nombre completo</label>
+                    <input type="text" id="Nombre" class="form-control" placeholder="Ej. Juan Pérez">
+                </div>
+
+                <!-- Correo electrónico -->
+                <div class="col-md-6">
+                    <label for="Correo" class="form-label">Correo electrónico</label>
+                    <input type="email" id="Correo" class="form-control" placeholder="ejemplo@dominio.com">
+                </div>
+
+                <!-- Contraseña -->
+                <div class="col-md-6">
+                    <label for="Contrasena" class="form-label">Nueva contraseña</label>
+                    <input type="password" id="Contrasena" class="form-control" placeholder="********">
+                </div>
+
+                <!-- Confirmar Contraseña -->
+                <div class="col-md-6">
+                    <label for="ConfirmarContrasena" class="form-label">Confirmar contraseña</label>
+                    <input type="password" id="ConfirmarContrasena" class="form-control" placeholder="********">
+                </div>
+
+                <!-- Grado y Sección -->
+                <div class="col-md-4">
+                    <label for="Grado" class="form-label">Grado</label>
+                    <select id="Grado" class="form-select">
+                        <option selected>Seleccione...</option>
+                        <option>1°</option>
+                        <option>2°</option>
+                        <option>3°</option>
+                    </select>
+                </div>
+                <div class="col-md-4">
+                    <label for="Seccion" class="form-label">Sección</label>
+                    <select id="Seccion" class="form-select">
+                        <option selected>Seleccione...</option>
+                        <option>A</option>
+                        <option>B</option>
+                        <option>C</option>
+                    </select>
+                </div>
+
+                <!-- Sexo -->
+                <div class="col-md-4">
+                    <label class="form-label d-block">Sexo</label>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="Sexo" id="sexoM" value="M">
+                        <label class="form-check-label" for="sexoM">Masculino</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="Sexo" id="sexoF" value="F">
+                        <label class="form-check-label" for="sexoF">Femenino</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="d-flex justify-content-end">
+        <button type="submit" class="btn btn-primary me-2">
+            <i class="bi bi-save"></i> Guardar cambios
+        </button>
+        <button type="reset" class="btn btn-outline-secondary">
+            <i class="bi bi-x-circle"></i> Cancelar
+        </button>
+    </div>
+</form>
+
+<!-- Asegúrate de tener importados los íconos de Bootstrap Icons en tu layout -->

@@ -1,0 +1,82 @@
+﻿@model Nutrigo_SINERA.Models.ClsColegio
+@{
+    Layout = "~/Views/Shared/LayoutAdministrador.cshtml";
+    ViewBag.Title = "Detalle del Colegio";
+}
+
+<h2 class="mb-4">🏫 Detalle del Colegio</h2>
+
+<div class="row">
+    <!-- Información institucional -->
+    <div class="col-md-6">
+        <h5 class="mb-3">📘 Información Institucional</h5>
+        <dl class="row">
+            <dt class="col-sm-5">Nombre:</dt>
+            <dd class="col-sm-7">@Model.Nombre</dd>
+
+            <dt class="col-sm-5">Código Modular:</dt>
+            <dd class="col-sm-7">@Model.CodigoModular</dd>
+
+            <dt class="col-sm-5">Tipo de Colegio:</dt>
+            <dd class="col-sm-7">@Model.TipoColegio</dd>
+
+            <dt class="col-sm-5">Nivel Educativo:</dt>
+            <dd class="col-sm-7">@Model.NivelEducativo</dd>
+
+            <dt class="col-sm-5">Dirección:</dt>
+            <dd class="col-sm-7">@Model.Direccion</dd>
+
+            <dt class="col-sm-5">Ubicación:</dt>
+            <dd class="col-sm-7">@Model.Ubicacion</dd>
+
+            <dt class="col-sm-5">Teléfono:</dt>
+            <dd class="col-sm-7">@Model.Telefono</dd>
+
+            <dt class="col-sm-5">Correo Institucional:</dt>
+            <dd class="col-sm-7">@Model.CorreoInstitucional</dd>
+
+            <dt class="col-sm-5">Cantidad de Alumnos:</dt>
+            <dd class="col-sm-7">@Model.CantidadAlumnos</dd>
+
+            <dt class="col-sm-5">Estado:</dt>
+            <dd class="col-sm-7">
+                @if (Model.Activo)
+                {
+                    <span class="badge bg-success">Activo</span>
+                }
+                else
+                {
+                    <span class="badge bg-danger">Inactivo</span>
+                }
+            </dd>
+        </dl>
+    </div>
+
+    <!-- Datos del Representante -->
+    <div class="col-md-6">
+        <h5 class="mb-3">👤 Datos del Representante</h5>
+        <dl class="row">
+            <dt class="col-sm-5">Nombre completo:</dt>
+            <dd class="col-sm-7">@Model.RepresentanteNombre</dd>
+
+            <dt class="col-sm-5">Cargo:</dt>
+            <dd class="col-sm-7">@Model.RepresentanteCargo</dd>
+
+            <dt class="col-sm-5">DNI:</dt>
+            <dd class="col-sm-7">@Model.RepresentanteDNI</dd>
+
+            <dt class="col-sm-5">Correo:</dt>
+            <dd class="col-sm-7">@Model.RepresentanteCorreo</dd>
+
+            <dt class="col-sm-5">Celular:</dt>
+            <dd class="col-sm-7">@Model.RepresentanteCelular</dd>
+
+            <dt class="col-sm-5">Contraseña:</dt>
+            <dd class="col-sm-7"><span class="text-muted">******</span></dd>
+        </dl>
+    </div>
+</div>
+
+<div class="mt-4">
+    <a href="@Url.Action("Index")" class="btn btn-secondary">← Volver</a>
+</div>

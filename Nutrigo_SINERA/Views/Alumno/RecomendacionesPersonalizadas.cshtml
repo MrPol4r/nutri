@@ -1,0 +1,103 @@
+﻿@{
+    Layout = "~/Views/Shared/LayoutAlumno.cshtml";
+    ViewBag.Title = "Recomendaciones Personalizadas";
+}
+
+<style>
+    .recomendacion-container {
+        max-width: 800px;
+        margin: auto;
+        padding: 30px;
+        font-family: 'Segoe UI', sans-serif;
+        background-color: #f9f9f9;
+        border-radius: 12px;
+        border: 1px solid #ccc;
+    }
+
+    h2 {
+        color: #2c3e50;
+        margin-bottom: 20px;
+    }
+
+    label {
+        font-weight: bold;
+    }
+
+    textarea {
+        width: 100%;
+        padding: 10px;
+        border-radius: 6px;
+        border: 1px solid #ccc;
+        resize: vertical;
+        margin-top: 5px;
+        margin-bottom: 20px;
+    }
+
+    .btn-generar {
+        background-color: #28a745;
+        color: white;
+        border: none;
+        padding: 12px 24px;
+        font-size: 16px;
+        border-radius: 6px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+
+        .btn-generar:hover {
+            background-color: #218838;
+        }
+
+    .resultado-ia {
+        margin-top: 30px;
+        padding: 20px;
+        background-color: #e8f5e9;
+        border-left: 6px solid #28a745;
+        border-radius: 8px;
+        color: #2e7d32;
+        font-size: 16px;
+        line-height: 1.5;
+    }
+
+    .recomendacion-titulo {
+        font-weight: bold;
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+
+    .cargando {
+        display: none;
+        font-style: italic;
+        color: #999;
+        margin-top: 10px;
+    }
+</style>
+
+<div class="recomendacion-container">
+    <h2>🤖 Generar Recomendaciones Nutricionales</h2>
+
+    <form method="post">
+        <label>📝 ¿Qué no te gusta del menú actual de tu hijo?</label>
+        <textarea name="comentario" rows="4" placeholder="Ej: Mi hijo no come verduras, el menú tiene demasiados fritos, etc." required></textarea>
+
+        <input type="submit" value="Generar con IA" class="btn-generar" onclick="mostrarCargando()" />
+    </form>
+
+    <div class="cargando" id="cargando">
+        <p>⏳ Analizando datos... generando recomendación personalizada...</p>
+    </div>
+
+    @if (ViewBag.Recomendacion != null)
+    {
+        <div class="resultado-ia">
+            <div class="recomendacion-titulo">🍽️ Recomendación Personalizada:</div>
+            <p>@ViewBag.Recomendacion</p>
+        </div>
+    }
+</div>
+
+<script>
+    function mostrarCargando() {
+        document.getElementById("cargando").style.display = "block";
+    }
+</script>

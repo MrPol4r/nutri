@@ -1,0 +1,31 @@
+﻿@model Nutrigo_SINERA.Models.ClsProveedor
+@{
+    Layout = "~/Views/Shared/LayoutColegio.cshtml";
+    ViewBag.Title = "Ver Proveedor";
+}
+
+<h2 class="mb-4">👁️ Detalles del Proveedor</h2>
+
+<div class="card p-4 bg-light">
+    <dl class="row">
+        <dt class="col-sm-3">Nombre</dt>
+        <dd class="col-sm-9">@Model.Nombre</dd>
+
+        <dt class="col-sm-3">RUC</dt>
+        <dd class="col-sm-9">@Model.RUC</dd>
+
+        <dt class="col-sm-3">Especialidad</dt>
+        <dd class="col-sm-9">@Model.Especialidad</dd>
+
+        <dt class="col-sm-3">Correo</dt>
+        <dd class="col-sm-9">@Model.Correo</dd>
+
+        <dt class="col-sm-3">Celular</dt>
+        <dd class="col-sm-9">@Model.Celular</dd>
+
+        <dt class="col-sm-3">Contraseña</dt>
+        <dd class="col-sm-9"><span class="text-muted">********</span></dd>
+    </dl>
+
+    <a href="@Url.Action("Proveedores", "Colegio")" class="btn btn-primary">← Volver</a>
+</div>

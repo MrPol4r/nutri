@@ -1,0 +1,62 @@
+﻿@model List<Nutrigo_SINERA.Models.ClsAlumno>
+@{
+    Layout = "~/Views/Shared/LayoutColegio.cshtml";
+    ViewBag.Title = "Gestionar Estudiantes";
+}
+
+@if (TempData["Mensaje"] != null)
+{
+    <div class="alert alert-success alert-dismissible fade show" role="alert">
+        @TempData["Mensaje"]
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+}
+
+<h2 class="mb-4">🎓 Gestión de Estudiantes</h2>
+
+<form method="get" class="mb-3">
+    <input type="text" name="search" value="@ViewBag.Search" class="form-control" placeholder="Buscar por nombre o correo..." />
+</form>
+
+<h5 class="mt-4">➕ Agregar nuevo estudiante</h5>
+@using (Html.BeginForm("AgregarAlumno", "Colegio", FormMethod.Post))
+{
+    <div class="row mb-4">
+        <div class="col-md-2"><input name="Nombre" class="form-control" placeholder="Nombre" required /></div>
+        <div class="col-md-2"><input name="Grado" class="form-control" placeholder="Grado" /></div>
+        <div class="col-md-2"><input name="Seccion" class="form-control" placeholder="Sección" /></div>
+        <div class="col-md-2"><input name="Correo" type="email" class="form-control" placeholder="Correo" required /></div>
+        <div class="col-md-2"><input name="Contrasena" type="password" class="form-control" placeholder="Contraseña" required /></div>
+        <div class="col-md-12 mt-2"><input type="submit" value="Agregar" class="btn btn-success btn-sm" /></div>
+    </div>
+}
+
+<div class="table-responsive">
+    <table class="table table-bordered table-striped">
+        <thead class="table-light">
+            <tr>
+                <th>Nombre</th>
+                <th>Grado</th>
+                <th>Sección</th>
+                <th>Correo</th>
+                <th>Acciones</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var a in Model)
+            {
+                <tr>
+                    <td>@a.Nombre</td>
+                    <td>@a.Grado</td>
+                    <td>@a.Seccion</td>
+                    <td>@a.Correo</td>
+                    <td>
+                        <a href="@Url.Action("VerAlumno", "Colegio", new { id = a.Id })" class="btn btn-info btn-sm">👁️</a>
+                        <a href="@Url.Action("EditarAlumno", "Colegio", new { id = a.Id })" class="btn btn-warning btn-sm">✏️</a>
+                        <a href="@Url.Action("EliminarAlumno", "Colegio", new { id = a.Id })" class="btn btn-danger btn-sm" onclick="return confirm('¿Seguro de eliminar este estudiante?')">🗑️</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

@@ -1,0 +1,25 @@
+﻿@model Nutrigo_SINERA.Models.ClsAdministrador
+@{
+    Layout = "~/Views/Shared/LayoutAdministrador.cshtml";
+    ViewBag.Title = "Editar Perfil";
+}
+
+<h3>👤 Perfil del Administrador</h3>
+
+@using (Html.BeginForm())
+{
+    <div class="form-group">
+        <label>Nombre completo</label>
+        @Html.TextBoxFor(m => m.Nombre, new { @class = "form-control" })
+    </div>
+    <div class="form-group">
+        <label>Correo</label>
+        @Html.TextBoxFor(m => m.Correo, new { @class = "form-control" })
+    </div>
+    <div class="form-group">
+        <label>Celular</label>
+        @Html.TextBoxFor(m => m.Celular, new { @class = "form-control" })
+    </div>
+    <br />
+    <button type="submit" class="btn btn-success">💾 Guardar Cambios</button>
+}

@@ -1,0 +1,103 @@
+﻿@model List<Nutrigo_SINERA.Models.ClsAlumno>
+@{
+    Layout = "~/Views/Shared/LayoutColegio.cshtml";
+    ViewBag.Title = "Reportes Nutricionales";
+}
+
+<h2 class="mb-4">📈 Reportes Nutricionales</h2>
+
+<div class="card mb-4">
+    <div class="card-body">
+        <h5 class="card-title">📊 Tendencia Semanal del Estado Nutricional de Estudiantes</h5>
+        <canvas id="lineChart" height="100"></canvas>
+    </div>
+</div>
+
+<div class="card">
+    <div class="card-body">
+        <div class="d-flex justify-content-between mb-3">
+            <div>
+                <select class="form-select d-inline-block w-auto">
+                    <option>PDF</option>
+                    <option>Excel</option>
+                </select>
+                <button class="btn btn-secondary">Descargar</button>
+            </div>
+            <input type="text" class="form-control w-50" placeholder="🔍 Buscar estudiante por" />
+        </div>
+
+        <table class="table table-bordered">
+            <thead class="table-success">
+                <tr>
+                    <th>Nombre</th>
+                    <th>Edad</th>
+                    <th>Peso (kg)</th>
+                    <th>Estado Nutricional</th>
+                    <th>Última Actualización</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var alumno in Model)
+                {
+                    <tr>
+                        <td>@alumno.Nombre</td>
+                        <td>@alumno.Edad</td>
+                        <td>@(alumno.Salud != null ? alumno.Salud.Peso.ToString("F1") : "Sin datos")</td>
+                        <td>@alumno.EstadoNutricional</td>
+                        <td>@alumno.FechaActualizacion.ToString("yyyy-MM-dd")</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+
+        <button class="btn btn-primary">🖼️ Imprimir Tabla</button>
+    </div>
+</div>
+
+@section Scripts {
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script>const ctxLine = document.getElementById('lineChart').getContext('2d');
+        new Chart(ctxLine, {
+            type: 'line',
+            data: {
+                labels: ['2025-01-15', '2025-01-22', '2025-02-01', '2025-02-08', '2025-02-15', '2025-02-22'],
+                datasets: [
+                    {
+                        label: 'Bajo Peso',
+                        data: [5, 4, 3.5, 3, 2.5, 2],
+                        borderColor: 'green',
+                        tension: 0.3
+                    },
+                    {
+                        label: 'Peso Normal',
+                        data: [10, 12, 14, 16, 18, 20],
+                        borderColor: 'blue',
+                        tension: 0.3
+                    },
+                    {
+                        label: 'Sobrepeso',
+                        data: [6, 5.5, 5, 4, 3, 2],
+                        borderColor: 'red',
+                        tension: 0.3
+                    }
+                ]
+            },
+            options: {
+                responsive: true,
+                scales: {
+                    y: {
+                        title: {
+                            display: true,
+                            text: 'Cantidad de Estudiantes'
+                        }
+                    },
+                    x: {
+                        title: {
+                            display: true,
+                            text: 'Fecha (Semanas)'
+                        }
+                    }
+                }
+            }
+        });</script>
+}

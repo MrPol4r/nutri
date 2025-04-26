@@ -1,0 +1,37 @@
+﻿@model Nutrigo_SINERA.Models.ClsLogin
+@{
+    Layout = null;
+}
+
+<div style="display: flex; flex-direction: column; align-items: center; justify-content: center; height: 80vh;">
+    <img src="~/Content/logo3.png" alt="Nutrigo" style="width: 300px; margin-bottom: 50px;" />
+
+    @using (Html.BeginForm("Index", "Login", FormMethod.Post))
+    {
+        <div style="width: 300px;">
+            <label>correo electrónico o nombre de usuario</label><br />
+            @Html.TextBoxFor(m => m.Usuario, new { @class = "form-control", @style = "width:100%; padding:10px; border-radius:10px; margin-bottom:15px;" })
+
+            <label>contraseña</label><br />
+            @Html.PasswordFor(m => m.Password, new { @class = "form-control", @style = "width:100%; padding:10px; border-radius:10px; margin-bottom:15px;" })
+
+            <!-- Google reCAPTCHA -->
+            <div class="g-recaptcha" data-sitekey="6LfWhRwrAAAAAPMGhDMV2Rt3VpY7Xc3WaT34q6Gb" style="margin-bottom: 20px;"></div>
+
+            <div style="display: flex; justify-content: space-between;">
+                <input type="submit" value="Ingresar" style="background-color: teal; color: white; border: none; padding: 10px 20px; border-radius: 10px;" />
+                <a href="@Url.Action("Registro", "Colegio")" style="text-decoration: none;">
+                    <button type="button" style="background-color: teal; color: white; border: none; padding: 10px 20px; border-radius: 10px;">Regístrate aquí</button>
+                </a>
+            </div>
+        </div>
+    }
+
+    @if (ViewBag.Error != null)
+    {
+        <p style="color:red; margin-top: 15px;">@ViewBag.Error</p>
+    }
+</div>
+
+<!-- reCAPTCHA script -->
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>

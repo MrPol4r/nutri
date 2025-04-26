@@ -1,0 +1,35 @@
+﻿@{
+    Layout = "~/Views/Shared/LayoutProveedor.cshtml";
+    ViewBag.Title = "Notificaciones";
+}
+
+<h2 class="mb-4 text-center">🔔 Notificaciones</h2>
+
+<div class="mx-auto" style="max-width: 700px;">
+    <ul class="list-group">
+        <li class="list-group-item d-flex justify-content-between align-items-start">
+            <div>
+                <strong>Nueva solicitud de menú</strong>
+                <div class="small text-muted">Hace 2 horas</div>
+                <div>Un colegio solicitó más información sobre tu plan del lunes.</div>
+            </div>
+            <span class="badge bg-primary rounded-pill">Info</span>
+        </li>
+        <li class="list-group-item d-flex justify-content-between align-items-start">
+            <div>
+                <strong>Plan guardado</strong>
+                <div class="small text-muted">Ayer</div>
+                <div>Tu plan semanal se guardó correctamente.</div>
+            </div>
+            <span class="badge bg-success rounded-pill">Éxito</span>
+        </li>
+        <li class="list-group-item d-flex justify-content-between align-items-start">
+            <div>
+                <strong>Recordatorio</strong>
+                <div class="small text-muted">Hace 3 días</div>
+                <div>No olvides actualizar tu menú para la próxima semana.</div>
+            </div>
+            <span class="badge bg-warning text-dark rounded-pill">Alerta</span>
+        </li>
+    </ul>
+</div>

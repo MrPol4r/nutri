@@ -1,0 +1,27 @@
+﻿@model List<Tuple<DateTime, string, bool>>
+@{
+    Layout = "~/Views/Shared/LayoutColegio.cshtml";
+    ViewBag.Title = "Notificaciones";
+}
+
+<h2>Notificaciones</h2>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Fecha</th>
+            <th>Mensaje</th>
+            <th>Leída</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var n in Model)
+        {
+            <tr class="@(n.Item3 ? "" : "font-weight-bold")">
+                <td>@n.Item1.ToString("dd/MM/yyyy HH:mm")</td>
+                <td>@n.Item2</td>
+                <td>@(n.Item3 ? "Sí" : "No")</td>
+            </tr>
+        }
+    </tbody>
+</table>

@@ -1,0 +1,67 @@
+﻿@model List<Nutrigo_SINERA.Models.ClsProveedor>
+@{
+    Layout = "~/Views/Shared/LayoutColegio.cshtml";
+    ViewBag.Title = "Gestionar Proveedores";
+}
+
+@if (TempData["Mensaje"] != null)
+{
+    <div class="alert alert-success alert-dismissible fade show" role="alert">
+        @TempData["Mensaje"]
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+}
+
+<h2 class="mb-4">📦 Gestión de Proveedores</h2>
+
+<form method="get" class="mb-3">
+    <input type="text" name="search" value="@ViewBag.Search" class="form-control" placeholder="Buscar por nombre o correo..." />
+</form>
+
+<h5 class="mt-4">➕ Agregar nuevo proveedor</h5>
+@using (Html.BeginForm("AgregarProveedor", "Colegio", FormMethod.Post))
+{
+    <div class="row mb-4">
+        <div class="col-md-2"><input name="Nombre" class="form-control" placeholder="Nombre" required /></div>
+        <div class="col-md-2"><input name="RUC" class="form-control" placeholder="RUC" required /></div>
+        <div class="col-md-2"><input name="Especialidad" class="form-control" placeholder="Especialidad" /></div>
+        <div class="col-md-2"><input name="Correo" type="email" class="form-control" placeholder="Correo" required /></div>
+        <div class="col-md-2"><input name="Celular" class="form-control" placeholder="Celular" /></div>
+        <div class="col-md-2"><input name="Contrasena" type="password" class="form-control" placeholder="Contraseña" required /></div>
+        <div class="col-md-12 mt-2"><input type="submit" value="Agregar" class="btn btn-success btn-sm" /></div>
+    </div>
+}
+
+<div class="table-responsive">
+    <table class="table table-bordered table-striped">
+        <thead class="table-light">
+            <tr>
+                <th>Nombre</th>
+                <th>RUC</th>
+                <th>Especialidad</th>
+                <th>Correo</th>
+                <th>Celular</th>
+                <th>Contraseña</th>
+                <th>Acciones</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var p in Model)
+            {
+                <tr>
+                    <td>@p.Nombre</td>
+                    <td>@p.RUC</td>
+                    <td>@p.Especialidad</td>
+                    <td>@p.Correo</td>
+                    <td>@p.Celular</td>
+                    <td><span class="d-inline-block text-muted">******</span></td>
+                    <td>
+                        <a href="@Url.Action("VerProveedor", "Colegio", new { id = p.Id })" class="btn btn-info btn-sm">👁️</a>
+                        <a href="@Url.Action("EditarProveedor", "Colegio", new { id = p.Id })" class="btn btn-warning btn-sm">✏️</a>
+                        <a href="@Url.Action("EliminarProveedor", "Colegio", new { id = p.Id })" class="btn btn-danger btn-sm" onclick="return confirm('¿Seguro de eliminar este proveedor?')">🗑️</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
